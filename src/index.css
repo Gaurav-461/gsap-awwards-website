@@ -6,6 +6,11 @@
     src: url("/fonts/ProximaNova-Regular.otf");
 }
 
+.item-list:has(.item:hover) .item:not(:hover) {
+  opacity: .2 ;
+  transition: opacity .6s ease;
+}
+
 @theme {
     --color-black: #222123;
     --color-main-bg: #232224;
