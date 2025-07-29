@@ -3,7 +3,7 @@ import FlavorSlide from "./FlavorSlide";
 import FlavorTitle from "./FlavorTitle";
 import Navbar from "./Navbar";
 import VideoPinSection from "./VideoPinSection";
-import CustomCursor from "./customCursor";
+import CustomCursor from "./CustomCursor";
 
 
 export {
