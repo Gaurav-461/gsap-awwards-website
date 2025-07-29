@@ -1,4 +1,4 @@
-import { CustomCursor, Navbar } from "./components/index";
+import { CustomCursor, Navbar } from "./components";
 import {
     BenefitSection,
     FlavorSection,
@@ -7,7 +7,7 @@ import {
     MessageSection,
     NutritionSection,
     TestimonialSection,
-} from "./sections/index";
+} from "./sections";
 import { ScrollSmoother, ScrollTrigger, SplitText } from "gsap/all";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
