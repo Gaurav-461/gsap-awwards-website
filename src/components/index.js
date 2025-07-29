@@ -3,6 +3,7 @@ import FlavorSlide from "./FlavorSlide";
 import FlavorTitle from "./FlavorTitle";
 import Navbar from "./Navbar";
 import VideoPinSection from "./VideoPinSection";
+import CustomCursor from "./customCursor";
 
 
 export {
@@ -10,5 +11,6 @@ export {
     FlavorSlide,
     FlavorTitle,
     ClipPathTitle,
-    VideoPinSection
+    VideoPinSection,
+    CustomCursor
 }

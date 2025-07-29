@@ -21,17 +21,17 @@ const HeroSection = () => {
 
         tl.to(".hero-content", {
             opacity: 1,
-            y: 0,
+            // y: 0,
             ease: "power1.inOut",
         })
             .to(
                 ".hero-text-scroll",
                 {
-                    duration: 1,
+                    duration: 2,
                     clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
                     ease: "circ.out",
-                },
-                "-=0.5",
+                },"-=0.5",
+                
             )
             .from(
                 titleSplit.chars,

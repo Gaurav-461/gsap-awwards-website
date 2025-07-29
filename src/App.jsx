@@ -1,4 +1,4 @@
-import { Navbar } from "./components/index";
+import { CustomCursor, Navbar } from "./components/index";
 import {
     BenefitSection,
     FlavorSection,
@@ -11,7 +11,6 @@ import {
 import { ScrollSmoother, ScrollTrigger, SplitText } from "gsap/all";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
-import CustomCursor from "./components/customCursor";
 
 gsap.registerPlugin(SplitText, ScrollSmoother, ScrollTrigger, useGSAP);
 
